@@ -1,0 +1,9 @@
+.border {
+    width: 800px;
+    margin-top: 2em;
+}
+
+.image {
+    width: 100%;
+    border-radius: 5px;
+}
