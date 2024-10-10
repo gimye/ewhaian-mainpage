@@ -4,4 +4,13 @@
     width: 100px;
     text-align: center;
     margin-bottom: 10px;
+    transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 추가 */
+    border-radius: 20px;
+}
+
+.navtype:hover {
+    background-color: #f0f0f0; /* 호버 시 배경색 변경 */
+    color: #007bff; /* 호버 시 글자색 변경 */
+    cursor: pointer; /* 커서를 포인터로 변경 */
+    border-radius: 20px;
 }
