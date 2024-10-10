@@ -1,0 +1,74 @@
+
+
+.loginform {
+    border: 1px solid lightgray;
+    width: 15em;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.checkbox_container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox_label {
+    font-size: small;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label>span {
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+input[type="checkbox"] +label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked+label::before {
+    content: '✓';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: rgb(16, 96, 0);
+    border: 1px solid rgb(16, 96, 0);
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.login_button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(1, 143, 70);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    font-family: Noto Sans KR;
+}
