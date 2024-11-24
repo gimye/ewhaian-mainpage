@@ -77,3 +77,28 @@
     height: 20.2px;
     margin-bottom: 8px;
 }
+
+.hamkey {
+    display: none;
+    margin-left: 5px;
+    height: 20.2px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1000px) {
+    .header {
+        width: 90vw;
+    }
+
+    .headerwrapper {
+        width: 90vw;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .hamkey {
+        display: block;
+    }
+}

@@ -21,6 +21,7 @@ const Header = () => {
 
           <div className={styles.secretlogo}>
             <img src="logo/hidekey.png" alt="" className={styles.hidekey}></img>
+            <img src="logo/hamburger.png" alt="" className={styles.hamkey}></img>
           </div>
         </div>
       </div>
