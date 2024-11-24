@@ -72,3 +72,33 @@ input[type="checkbox"]:checked+label::before {
     height: 45px;
     font-family: Noto Sans KR;
 }
+
+@media (max-width: 1000px) {
+
+    .loginbox {
+        margin-bottom: 2em;
+    }
+    
+    .loginform {
+        width: 90vw;
+        padding: 20px;
+    }
+
+    .checkbox_container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .checkbox {
+        margin-bottom: 10px;
+        width: 40vw;
+    }
+
+    .input {
+        height: 35px;
+    }
+
+    .login_button {
+        height: 40px;
+    }
+}

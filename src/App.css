@@ -63,3 +63,36 @@
   width: 900px;
   margin-left: 1.8em;
 }
+
+@media (max-width: 1000px) {
+  .App {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 2em 0 0 0;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mainboard {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .header, .login, .banner, .border {
+    width: 100%;
+  }
+}

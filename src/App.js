@@ -9,10 +9,10 @@ function App() {
     <div className="App">
       <Header />
       <div className="main">
-        <Login></Login>
+        <Login className="login"></Login>
         <div className="mainboard">
-          <Banner />
-          <Border />
+          <Banner className="banner" />
+          <Border className="border"/>
         </div>
       </div>
     </div>
